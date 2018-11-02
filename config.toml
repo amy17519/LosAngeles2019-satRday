@@ -1,0 +1,45 @@
+theme = "hugo-universal-theme"
+baseURL = "http://example2.org/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+[menu]
+
+# Main menu
+
+[[menu.main]]
+    name = "Home"
+    url  = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "program"
+    identifier = "program"
+    url  = "/program/"
+    weight = 2
+
+[[menu.main]]
+    name = "FAQ"
+    identifier = "faq"
+    url  = "/faq/"
+    weight = 3
+
+[[menu.main]]
+    name = "Contact"
+    url  = "/contact/"
+    weight = 4
+    
+
+[params]
+    style = "blue"
+    
+    logo = "img/satRdayLogo.png"
+    logo_small = "img/satRdayLogo.png"
+
+[params.carousel]
+    enable = true
+    
+[params.features]
+    enable = true
+  
